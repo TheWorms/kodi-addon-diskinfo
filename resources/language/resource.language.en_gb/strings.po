@@ -1,0 +1,29 @@
+# Kodi Media Center language file
+# Addon Name: Worms Disk Info
+# Addon id: service.worms.diskinfo
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Folder to measure"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Leave empty to measure the partition holding the Kodi folder (/storage on CoreELEC and LibreELEC)."
+msgstr ""
+
+msgctxt "#32003"
+msgid "Refresh interval (seconds)"
+msgstr ""
+
+msgctxt "#32004"
+msgid "How often the disk usage is read again."
+msgstr ""
