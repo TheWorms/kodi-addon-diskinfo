@@ -3,7 +3,7 @@
 
 [Français](README.md) · **English**
 
-# Worms Disk Info
+# Disk Info
 
 <!-- version:auto -->
 **Version : 1.0.0**
@@ -14,12 +14,12 @@ skins. Kodi only measures `/`: on **CoreELEC / LibreELEC** that is the read-only
 system image (`loop0`), always 100 % full. This service measures the partition
 holding the Kodi folder (`/storage` on CoreELEC) and makes it readable by the skin.
 
-Built for the **Arctic: Worms** skin, usable by any skin. Tested on Kodi 21
-"Omega" (CoreELEC 21.3, ODROID-N2+).
+Built for the **Arctic: Worms** skin, usable by any skin. For Kodi 19
+"Matrix" and later.
 
 - **Repository**: `github.com/TheWorms/kodi-addon-diskinfo`
 - **Kodi id**: `service.worms.diskinfo`
-- **Display name**: Worms Disk Info · **License**: MIT
+- **Display name**: Disk Info · **License**: MIT
 
 ---
 
@@ -30,11 +30,11 @@ the partition usage and publishes it as home window properties:
 
 | Property | Example | Content |
 |---|---|---|
-| `Window(Home).Property(DiskInfo.UsedPercent)` | `4` | used percentage, computed like `df` |
-| `Window(Home).Property(DiskInfo.FreePercent)` | `96` | free percentage |
-| `Window(Home).Property(DiskInfo.Total)` | `116 GB` | partition size |
-| `Window(Home).Property(DiskInfo.Used)` | `4.3 GB` | used space |
-| `Window(Home).Property(DiskInfo.Free)` | `106 GB` | available space |
+| `Window(Home).Property(DiskInfo.UsedPercent)` | `25` | used percentage, computed like `df` |
+| `Window(Home).Property(DiskInfo.FreePercent)` | `75` | free percentage |
+| `Window(Home).Property(DiskInfo.Total)` | `32 GB` | partition size |
+| `Window(Home).Property(DiskInfo.Used)` | `8.0 GB` | used space |
+| `Window(Home).Property(DiskInfo.Free)` | `24 GB` | available space |
 | `Window(Home).Property(DiskInfo.Path)` | `/storage/.kodi/` | measured folder |
 
 It has no user interface: nothing shows until the skin reads these properties.
@@ -54,7 +54,7 @@ To use it in another skin, for example:
 1. Install the repository:
    `https://raw.githubusercontent.com/TheWorms/kodi-repo/main/zips/repository.theworms/repository.theworms.zip`
 2. Add-ons → **Install from repository** → *TheWorms Repository* → *Services* →
-   **Worms Disk Info** → Install.
+   **Disk Info** → Install.
 
 ### Manual (zip)
 

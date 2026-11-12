@@ -3,7 +3,7 @@
 
 **Français** · [English](readme.en.md)
 
-# Worms Disk Info
+# Disk Info
 
 <!-- version:auto -->
 **Version : 1.0.0**
@@ -15,12 +15,12 @@ système en lecture seule (`loop0`), toujours pleine à 100 %. Ce service mesure
 partition qui contient le dossier de Kodi (`/storage` sur CoreELEC) et la rend
 lisible par le skin.
 
-Conçu pour le skin **Arctic: Worms**, utilisable par n'importe quel skin. Testé
-Kodi 21 « Omega » (CoreELEC 21.3, ODROID-N2+).
+Conçu pour le skin **Arctic: Worms**, utilisable par n'importe quel skin. Pour
+Kodi 19 « Matrix » et suivants.
 
 - **Dépôt** : `github.com/TheWorms/kodi-addon-diskinfo`
 - **Identifiant Kodi** : `service.worms.diskinfo`
-- **Nom affiché** : Worms Disk Info · **Licence** : MIT
+- **Nom affiché** : Disk Info · **Licence** : MIT
 
 ---
 
@@ -31,11 +31,11 @@ l'espace de la partition et le publie en propriétés de la fenêtre d'accueil :
 
 | Propriété | Exemple | Contenu |
 |---|---|---|
-| `Window(Home).Property(DiskInfo.UsedPercent)` | `4` | pourcentage utilisé, calculé comme `df` |
-| `Window(Home).Property(DiskInfo.FreePercent)` | `96` | pourcentage libre |
-| `Window(Home).Property(DiskInfo.Total)` | `116 GB` | taille de la partition |
-| `Window(Home).Property(DiskInfo.Used)` | `4.3 GB` | espace utilisé |
-| `Window(Home).Property(DiskInfo.Free)` | `106 GB` | espace disponible |
+| `Window(Home).Property(DiskInfo.UsedPercent)` | `25` | pourcentage utilisé, calculé comme `df` |
+| `Window(Home).Property(DiskInfo.FreePercent)` | `75` | pourcentage libre |
+| `Window(Home).Property(DiskInfo.Total)` | `32 GB` | taille de la partition |
+| `Window(Home).Property(DiskInfo.Used)` | `8.0 GB` | espace utilisé |
+| `Window(Home).Property(DiskInfo.Free)` | `24 GB` | espace disponible |
 | `Window(Home).Property(DiskInfo.Path)` | `/storage/.kodi/` | dossier mesuré |
 
 Il n'a pas d'interface : rien ne s'affiche tant que le skin ne lit pas ces
@@ -55,7 +55,7 @@ Pour l'utiliser dans un autre skin, par exemple :
 1. Installe le dépôt :
    `https://raw.githubusercontent.com/TheWorms/kodi-repo/main/zips/repository.theworms/repository.theworms.zip`
 2. Add-ons → **Installer depuis un dépôt** → *TheWorms Repository* → *Services* →
-   **Worms Disk Info** → Installer.
+   **Disk Info** → Installer.
 
 ### Manuelle (zip)
 
