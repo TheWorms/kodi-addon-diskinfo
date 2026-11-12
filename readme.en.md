@@ -6,7 +6,7 @@
 # Disk Info
 
 <!-- version:auto -->
-**Version : 1.0.0**
+**Version : 1.0.1**
 <!-- /version:auto -->
 
 Small Kodi service that publishes the **disk usage of the data partition** for

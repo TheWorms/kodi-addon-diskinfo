@@ -6,7 +6,7 @@
 # Disk Info
 
 <!-- version:auto -->
-**Version : 1.0.0**
+**Version : 1.0.1**
 <!-- /version:auto -->
 
 Petit service Kodi qui publie l'**espace disque de la partition de données** pour
