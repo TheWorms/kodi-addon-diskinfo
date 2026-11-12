@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: Worms Disk Info
+# Addon Name: Disk Info
 # Addon id: service.worms.diskinfo
 msgid ""
 msgstr ""
